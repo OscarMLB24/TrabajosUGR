@@ -103,6 +103,6 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
     }
 
     //COMPLETAR POR EL ESTUDIANTE
-    pablo
+
 
 }
