@@ -64,22 +64,20 @@ void Video::Borrar(int k)
 /**************************************************/
 bool Video::LeerVideo(const string &path)
 {
-    /*bool exito = true;
-    std::filesystem::path filepath =path;
+    bool exito = true;
+    std::filesystem::path filepath = path;
     bool filepathExists = std::filesystem::is_directory(filepath);
 
     if(!filepathExists) {
 
-        bool created_new_directory= std::filesystem::create_directory(filepath);
-        if (!created_new_directory) {
-            cout<<"No se puede crear el directorio "<<path<<endl;
-            return false;
-        }
-        else {
-            cout<<" Se ha creado el directorio "<< path<<endl;
-        }
+        cout << "No existe el directorio " << path << endl;
+        return false;
+    }
+    else {
 
-    }*/
+        vector<string> aux;
+        read_directory(path, aux);
+    }
     //USA read_directory PARA LEER los fichero de un directorio
     //COMPLETAR POR EL ESTUDIANTE
 }
