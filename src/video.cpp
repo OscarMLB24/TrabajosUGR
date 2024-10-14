@@ -4,7 +4,7 @@
 void read_directory(const std::string& name, vector<string>& v)
 {
     DIR* dirp = opendir(name.c_str());
-    struct dirent * dp;
+    struct dirent * dp; 
     while ((dp = readdir(dirp)) != NULL) {
 
         v.push_back(dp->d_name);
