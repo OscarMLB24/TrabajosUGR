@@ -33,7 +33,7 @@ Video::~Video(){}
 /**************************************************/
 Video &Video::operator=(const Video &V)
 {
-    seq = V.seq;
+    if (this != &V) seq = V.seq;
     return * this;
 }
 /**************************************************/
