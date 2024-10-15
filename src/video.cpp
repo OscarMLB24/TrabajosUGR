@@ -77,6 +77,7 @@ bool Video::LeerVideo(const string &path)
         vector<string> aux;
         read_directory(path, aux);
         seq.clear();
+        seq.reserve(aux.size());
 
         vector<string>::iterator it;
         for(it = aux.begin() + 2; it != aux.end(); ++it) {
