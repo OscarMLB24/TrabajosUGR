@@ -1,10 +1,11 @@
 
 #include "video.h"
+#include "imageIO.h"
 
 void read_directory(const std::string& name, vector<string>& v)
 {
     DIR* dirp = opendir(name.c_str());
-    struct dirent * dp; 
+    struct dirent * dp;
     while ((dp = readdir(dirp)) != NULL) {
 
         v.push_back(dp->d_name);
@@ -33,7 +34,7 @@ Video::~Video(){}
 /**************************************************/
 Video &Video::operator=(const Video &V)
 {
-    if (this != &V) seq = V.seq;
+    if(this != &V) seq = V.seq;
     return * this;
 }
 /**************************************************/
@@ -71,15 +72,21 @@ bool Video::LeerVideo(const string &path)
     if(!filepathExists) {
 
         cout << "No existe el directorio " << path << endl;
-        return false;
     }
     else {
-
         vector<string> aux;
         read_directory(path, aux);
+        seq.clear();
+
+        vector<string>::iterator it;
+        for(it = aux.begin() + 2; it != aux.end(); ++it) {
+
+            string ruta_imagen = path + "/" + *it;
+            Image imagen(ruta_imagen.c_str());
+            seq.push_back(imagen);
+        }
     }
-    //USA read_directory PARA LEER los fichero de un directorio
-    //COMPLETAR POR EL ESTUDIANTE
+    return filepathExists;
 }
 
 bool Video::EscribirVideo(const string & path, const string &prefijo)const{
@@ -101,6 +108,5 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
     }
 
     //COMPLETAR POR EL ESTUDIANTE
-
 
 }
