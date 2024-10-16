@@ -39,6 +39,8 @@ Video Morphing(const Image &I1,const Image &I2,int nframes)
             video.Insertar(i,imagen);
         }
     }
+
+    return video;
 }
 
 int main(int argc, char * argv[])
