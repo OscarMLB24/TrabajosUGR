@@ -72,22 +72,26 @@ bool Video::LeerVideo(const string &path)
     if(!filepathExists) {
 
         cout << "No existe el directorio " << path << endl;
+        exito = false;
     }
     else {
+
         vector<string> aux;
         read_directory(path, aux);
         seq.clear();
         seq.reserve(aux.size());
 
         vector<string>::iterator it;
-        for(it = aux.begin() + 2; it != aux.end(); ++it) {
+        Image imagen;
+
+        for(it = aux.begin() + 2; it != aux.end() && exito; ++it) {
 
             string ruta_imagen = path + "/" + *it;
-            Image imagen(ruta_imagen.c_str());
-            seq.push_back(imagen);
+            if(!imagen.Load(ruta_imagen.c_str())) exito = false;
+            else seq.push_back(imagen);
         }
     }
-    return filepathExists;
+    return exito;
 }
 
 bool Video::EscribirVideo(const string & path, const string &prefijo)const{
@@ -108,6 +112,6 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
         }
     }
 
-    //COMPLETAR POR EL ESTUDIANTE
+
 
 }
