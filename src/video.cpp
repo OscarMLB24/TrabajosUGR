@@ -86,7 +86,7 @@ bool Video::LeerVideo(const string &path)
 
         for(it = aux.begin() + 2; it != aux.end() && exito; ++it) {
 
-            string ruta_imagen = path + "/" + *it;
+            string ruta_imagen = path + *it;
             if(!imagen.Load(ruta_imagen.c_str())) exito = false;
             else seq.push_back(imagen);
         }
@@ -96,7 +96,7 @@ bool Video::LeerVideo(const string &path)
 
 bool Video::EscribirVideo(const string & path, const string &prefijo)const{
 
-    bool exito=true;
+    bool exito = true;
     std::filesystem::path filepath =path;
     bool filepathExists = std::filesystem::is_directory(filepath);
 
@@ -112,6 +112,11 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
         }
     }
 
+    for(int i = 0; i < seq.size() && exito; ++i) {
 
+        string ruta_imagen = path + prefijo + "_" + to_string(i) + ".pgm";
+        exito = seq.at(i).Save(ruta_imagen.c_str());
+    }
 
+    return exito;
 }
