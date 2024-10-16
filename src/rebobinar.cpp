@@ -11,10 +11,45 @@ using namespace std;
  */
 Video Rebobinar(const Video &V)
 {
+    int n = V.size();
+    Video invertido(n);
 
+    for(int i = 0; i < n; i++)
+        invertido.Insertar(i,V[n-i-1]);
+
+    return invertido;
 }
 
 int main(int argc, char * argv[])
 {
+    if(argc != 3) {
+        cerr << "Debe introducir 2 parametros:"
+             << "\n\t1) El directorio donde se encuentran los fotogramas del video de entrada."
+             << "\n\t2) El directorio donde se escribe el video rebobinado.";
+        return 1;
+    }
 
+    bool exito = true;
+    Video video;
+    exito = video.LeerVideo(argv[1]);
+
+    if(exito) {
+
+        string ruta_entrada = argv[1];
+        string path_sin_barra = ruta_entrada.substr(0,ruta_entrada.size()-1);
+        int pos_ultima_barra = static_cast<int>(path_sin_barra.find_last_of('/'));
+        string prefijo = ruta_entrada.substr(pos_ultima_barra);
+
+        Video rebobinado(Rebobinar(video));
+        exito = rebobinado.EscribirVideo(argv[2], prefijo);
+    }
+
+    if(exito) {
+        cout << "Se ejecuto con exito";
+        return 0;
+    }
+    else {
+        cout << "Hubo un error de ejecucion";
+        return 1;
+    }
 }
