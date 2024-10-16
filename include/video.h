@@ -3,16 +3,19 @@
 #define PRACTICA2_VIDEO_H
 #include "image.h"
 #include <vector>
+#include <set>
+#include <map>
 #include <sys/types.h>
 #include <dirent.h>
 #include <cmath>
 #include <string>
 #include <filesystem>
 #include <iostream>
+#include <list>
 using namespace std;
 
 /**
- * @brief función que lee los ficheros de un directorio
+ * @brief función que crea un vector de strings con los nombres de cada archivo
  * @param name nombre del directorio
  * @param v vector donde se almacenan los nombres
  */
@@ -21,6 +24,7 @@ void read_directory(const std::string& name, vector<string>& v);
 class Video {
 private:
     vector<Image> seq;
+
 public:
     /**
      * @brief constructor por defecto
