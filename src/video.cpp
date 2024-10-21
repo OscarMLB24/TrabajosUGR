@@ -78,6 +78,7 @@ bool Video::LeerVideo(const string &path)
 
         vector<string> aux;
         read_directory(path, aux);
+        sort(aux.begin(),aux.end());
         seq.clear();
         seq.reserve(aux.size());
 
@@ -87,8 +88,8 @@ bool Video::LeerVideo(const string &path)
         for(it = aux.begin() + 2; it != aux.end() && exito; ++it) {
 
             string ruta_imagen = path + *it;
-            if(!imagen.Load(ruta_imagen.c_str())) exito = false;
-            else seq.push_back(imagen);
+            exito = imagen.Load(ruta_imagen.c_str());
+            if(exito) seq.push_back(imagen);
         }
     }
     return exito;
@@ -97,7 +98,7 @@ bool Video::LeerVideo(const string &path)
 bool Video::EscribirVideo(const string & path, const string &prefijo)const{
 
     bool exito = true;
-    std::filesystem::path filepath =path;
+    std::filesystem::path filepath = path;
     bool filepathExists = std::filesystem::is_directory(filepath);
 
     if (!filepathExists){
