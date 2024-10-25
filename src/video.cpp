@@ -105,11 +105,11 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
 
         bool created_new_directory= std::filesystem::create_directory(filepath);
         if (!created_new_directory){
-            cout<<"No se puede crear el directorio "<<path<<endl;
+            cout<<"No se puede crear el directorio "<< path << endl;
             return false;
         }
         else{
-            cout<<" Se ha creado el directorio "<< path<<endl;
+            cout<<" Se ha creado el directorio "<< path << endl;
         }
     }
 
