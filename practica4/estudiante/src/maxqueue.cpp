@@ -51,14 +51,16 @@ const Element &MaxQueue::back() const
 void MaxQueue::push(int newValue)
 {
     Element newElement{newValue, newValue};
-    int max = elements.back().maximum;
 
-    if(max > newValue) {
-        newElement.maximum = max;
-    }
-    else{
-        for(Element e : elements) {
-            e.maximum = newValue;
+    if(!elements.empty()) {
+
+        if(const int max = elements.back().maximum; max > newValue) {
+            newElement.maximum = max;
+        }
+        else{
+            for(Element & element : elements) {
+                element.maximum = newValue;
+            }
         }
     }
     elements.push_back(newElement);
