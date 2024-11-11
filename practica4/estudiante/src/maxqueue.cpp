@@ -1,7 +1,7 @@
 /**
  * @file maxqueue.cpp
  * @brief  Archivo de implementación del TDA MaxQueue
- * @author
+ * @author Pablo Vargas Diaz, Oscar Alfonso Mitillo López-Barajas
  */
 
 #include <maxqueue.h>
