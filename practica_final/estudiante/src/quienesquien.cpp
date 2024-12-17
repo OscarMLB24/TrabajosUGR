@@ -366,7 +366,7 @@ void QuienEsQuien::iniciar_juego(){
 
           if(respuesta == "no") jugar = false;
      }
-     
+
     if (modo_graph){
      con->WriteText("Cuando completes QuienEsQuien, este mensaje lo podr?s quitar");
      char c;
@@ -381,8 +381,57 @@ void QuienEsQuien::iniciar_juego(){
 }	
 
 set<string> QuienEsQuien::informacion_jugada(bintree<Pregunta>::node jugada_actual){
-     //TODO :)
+
      set<string> personajes_levantados;
+
+     if((*jugada_actual).es_personaje()) {
+          personajes_levantados.insert((*jugada_actual).obtener_personaje());
+          return personajes_levantados;
+     }
+
+     if(jugada_actual == arbol.root()) {
+          for(const string &personaje : personajes) personajes_levantados.insert(personaje);
+          return personajes_levantados;
+     }
+
+     personajes_levantados = informacion_jugada(jugada_actual.parent());
+     string atributo_padre = (*jugada_actual.parent()).obtener_pregunta();
+     int posicion_atributo_padre = 0;
+     int i = 0;
+
+     while(i < atributos.size()) {
+          if(atributo_padre == atributos[i]) {
+               posicion_atributo_padre = i;
+               break;
+          }
+          i++;
+     }
+
+     if(jugada_actual.parent().left() == jugada_actual) {
+
+          for(const string &personaje : personajes_levantados) {
+
+               int posicion_personaje = 0;
+
+               for(i = 0; i < personajes.size(); i++) {
+                    if(personaje == personajes[i]) posicion_personaje = i;
+               }
+               if(!tablero[posicion_personaje][posicion_atributo_padre])
+                    personajes_levantados.erase(personaje);
+          }
+     }
+     else {
+          for(const string &personaje : personajes_levantados) {
+
+               int posicion_personaje = 0;
+
+               for(i = 0; i < personajes.size(); i++) {
+                    if(personaje == personajes[i]) posicion_personaje = i;
+               }
+               if(tablero[posicion_personaje][posicion_atributo_padre])
+                    personajes_levantados.erase(personaje);
+          }
+     }
      return personajes_levantados;
 }
 
