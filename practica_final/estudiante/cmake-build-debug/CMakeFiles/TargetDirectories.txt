@@ -1,0 +1,8 @@
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/quienesquien.dir
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/doc_doxygen.dir
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/mrproper.dir
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/zip.dir
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/quienesquien_autogen_timestamp_deps.dir
+/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/quienesquien_autogen.dir

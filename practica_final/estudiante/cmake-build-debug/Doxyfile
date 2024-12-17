@@ -1,0 +1,6 @@
+PROJECT_NAME           = "QuienesQuien"
+OUTPUT_DIRECTORY       = /home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/doc_doxygen/
+INPUT                  = /home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/.//include /home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/.//src /home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/.//doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/PrácticaFinal/practica_final_prado/practica_final/estudiante/.//doc
+EXTRACT_PRIVATE        = NO

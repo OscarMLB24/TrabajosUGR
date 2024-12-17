@@ -1,0 +1,236 @@
+{
+	"BUILD_DIR" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/quienesquien_autogen",
+	"CMAKE_BINARY_DIR" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante",
+	"CMAKE_EXECUTABLE" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/CMakeLists.txt",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindDoxygen.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/Doxyfile.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/quienesquien_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "quienesquien_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/bintree.h",
+			"Mu",
+			"6YEA5652QU/moc_bintree.cpp",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/bintree.hxx",
+			"Mu",
+			"6YEA5652QU/moc_bintree_hxx.cpp",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/consola.h",
+			"Mu",
+			"6YEA5652QU/moc_consola.cpp",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/node.hxx",
+			"Mu",
+			"6YEA5652QU/moc_node.cpp",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/pregunta.h",
+			"Mu",
+			"6YEA5652QU/moc_pregunta.cpp",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/quienesquien.h",
+			"Mu",
+			"6YEA5652QU/moc_quienesquien.cpp",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/tablerografico.h",
+			"Mu",
+			"6YEA5652QU/moc_tablerografico.cpp",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include/ventana.h",
+			"Mu",
+			"6YEA5652QU/moc_ventana.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/quienesquien_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/quienesquien_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/include",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/quienesquien_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/quienesquien_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/cmake-build-debug/CMakeFiles/quienesquien_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/src/consola.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/src/main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/src/pregunta.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/src/quienesquien.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/src/tablerografico.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/oscar/Escritorio/UGR/2o/1er_cuatri/Estructura_Datos/Pra\u0301cticaFinal/practica_final_prado/practica_final/estudiante/src/ventana.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
