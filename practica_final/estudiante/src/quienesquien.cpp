@@ -328,32 +328,45 @@ void QuienEsQuien::iniciar_juego(){
         v.show();
     }
 
+     bool jugar = true;
      string respuesta;
      set<string> respuestaPosibles = {"si","Si","SI","no","No","NO"};
-     jugada_actual = arbol.root();
 
-     while((*jugada_actual).es_pregunta()) {
+     while(jugar) {
+
+          jugada_actual = arbol.root();
+
+          while((*jugada_actual).es_pregunta()) {
+
+               do {
+                    cout << "¿" << (*jugada_actual).obtener_pregunta() << "?";
+                    cin  >> respuesta;
+               } while(respuestaPosibles.count(respuesta) != 1);
+
+               transform(respuesta.begin(),respuesta.end(),respuesta.begin(),::tolower);
+
+               switch(respuesta) {
+                    case "si":
+                         jugada_actual = jugada_actual.left();
+                         break;
+                    case "no":
+                         jugada_actual = jugada_actual.right();
+                         break;
+               }
+          }
+
+          cout << "¡Ya lo sé! Tu personaje es " << (*jugada_actual).obtener_personaje();
 
           do {
-               cout << "¿" << (*jugada_actual).obtener_pregunta() << "?";
+               cout << "¿Quieres jugar de nuevo? ";
                cin  >> respuesta;
-          } while (respuestaPosibles.count(respuesta) != 1);
+          }while(respuestaPosibles.count(respuesta) != 1);
 
           transform(respuesta.begin(),respuesta.end(),respuesta.begin(),::tolower);
 
-          switch (respuesta) {
-
-               case "si":
-                    jugada_actual = jugada_actual.left();
-                    break;
-               case "no":
-                    jugada_actual = jugada_actual.right();
-                    break;
-          }
+          if(respuesta == "no") jugar = false;
      }
-
-     cout << "¡Ya lo sé! Tu personaje es " << (*jugada_actual).obtener_personaje();
-    
+     
     if (modo_graph){
      con->WriteText("Cuando completes QuienEsQuien, este mensaje lo podr?s quitar");
      char c;
@@ -465,5 +478,3 @@ void QuienEsQuien::setImagenOcultar(const char * n){
 void QuienEsQuien::setModoGraph(bool m){
     modo_graph=m;
 }
-
-
