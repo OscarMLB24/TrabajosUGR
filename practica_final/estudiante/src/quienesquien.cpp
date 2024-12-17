@@ -332,7 +332,7 @@ void QuienEsQuien::iniciar_juego(){
      set<string> respuestaPosibles = {"si","Si","SI","no","No","NO"};
      jugada_actual = arbol.root();
 
-     while((*jugada_actual).es_personaje()) {
+     while((*jugada_actual).es_pregunta()) {
 
           do {
                cout << "¿" << (*jugada_actual).obtener_pregunta() << "?";
