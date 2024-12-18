@@ -171,11 +171,19 @@ public:
 	void mostrar_estructuras_leidas();
 
 	/**
-	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes
+	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes. Se llama al otro método crear_arbol en el que se usan parámetros
    	  * 
 	  * @return Árbol binario con los personajes en las hojas      
 	  */
 	bintree<Pregunta> crear_arbol();
+ int indice_atributo = 0;
+     vector<bool> personajes_restantes;
+     for(vector<string>::iterator it = personajes.begin();it!=personajes.end();it++){
+          personajes_restantes.push_back(true);
+     }
+
+     return crear_arbol( this->atributos, indice_atributo, this->personajes,
+                         personajes_restantes, this->tablero);
 
 	/**
 	  * @brief Sustituye el ?rbol actual por el ?rbol pasado por par?metro.
