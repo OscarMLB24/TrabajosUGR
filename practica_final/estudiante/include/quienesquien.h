@@ -92,7 +92,14 @@ private:
 
 
 	/**
-	  * @brief Esta es una propuesta de cabecera de la funci?n para crear el arbol.
+	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes
+   	  * @param atributos Almacena los atributos.  Su ?ndice en este vector corresponde con el ?ndice correspondiente de cada vector del tablero.
+	  * @param indice_atributo  
+   	  * @param personajes Almacena el nombre de los personajes. Su ?ndice en este vector corresponde con el ?ndice de su descripci?n en el tablero
+	  * @param personajes_restantes Almacena si los personajes cumplen o no el atributo. Está inicializado con todo a 1, ya que no se ha hecho ninguna pregunta       
+	  * @param tablero Matriz que almacena para cada personaje su valor para cada atributo   
+	  *        
+	  * @return Árbol binario con los personajes en las hojas      
 	  */
 	 bintree<Pregunta> crear_arbol(vector<string> atributos,
                                     int indice_atributo,
@@ -165,19 +172,10 @@ public:
 
 	/**
 	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes
-   	  * @param atributos Almacena los atributos.  Su ?ndice en este vector corresponde con el ?ndice correspondiente de cada vector del tablero.
-	  * @param indice_atributo  
-   	  * @param personajes Almacena el nombre de los personajes. Su ?ndice en este vector corresponde con el ?ndice de su descripci?n en el tablero
-	  * @param personajes_restantes Almacena si los personajes cumplen o no el atributo. Está inicializado con todo a 1, ya que no se ha hecho ninguna pregunta       
-	  * @param tablero Matriz que almacena para cada personaje su valor para cada atributo   
-	  *        
+   	  * 
 	  * @return Árbol binario con los personajes en las hojas      
 	  */
-	bintree<Pregunta> crear_arbol(vector<string> atributos,
-                                             int indice_atributo,
-                                             vector<string> personajes,
-                                             vector<bool> personajes_restantes,
-                                             vector<vector<bool>> tablero);
+	bintree<Pregunta> crear_arbol();
 
 	/**
 	  * @brief Sustituye el ?rbol actual por el ?rbol pasado por par?metro.
