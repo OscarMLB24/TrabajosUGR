@@ -165,13 +165,23 @@ public:
 
 	/**
 	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes
-   	  * @param 
+   	  * @param atributos Almacena los atributos.  Su ?ndice en este vector corresponde con el ?ndice correspondiente de cada vector del tablero.
+	  * @param indice_atributo  
+   	  * @param personajes Almacena el nombre de los personajes. Su ?ndice en este vector corresponde con el ?ndice de su descripci?n en el tablero
+	  * @param personajes_restantes Almacena si los personajes cumplen o no el atributo. Está inicializado con todo a 1, ya que no se ha hecho ninguna pregunta       
+	  * @param tablero Matriz que almacena para cada personaje su valor para cada atributo   
+	  *        
+	  * @return Árbol binario con los personajes en las hojas      
 	  */
-	bintree<Pregunta> crear_arbol();
+	bintree<Pregunta> crear_arbol(vector<string> atributos,
+                                             int indice_atributo,
+                                             vector<string> personajes,
+                                             vector<bool> personajes_restantes,
+                                             vector<vector<bool>> tablero);
 
 	/**
 	  * @brief Sustituye el ?rbol actual por el ?rbol pasado por par?metro.
-	  *
+	  * 
 	  * @param arbol_nuevo Arbol de preguntas que sustituye al actual.
 	  *
 	  */
