@@ -164,7 +164,8 @@ public:
 	void mostrar_estructuras_leidas();
 
 	/**
-	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero.
+	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes
+   	  * @param 
 	  */
 	bintree<Pregunta> crear_arbol();
 
