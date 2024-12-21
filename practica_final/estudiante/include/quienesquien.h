@@ -244,6 +244,13 @@ public:
 	  */
 	void tablero_aleatorio(int numero_de_personajes);
 
+
+     /**
+     * @brief Elimina un personaje del arbol y lo reestructura
+     * @param nombre Nombre del personaje a eliminar
+     */
+    void elimina_personaje(string nombre);
+
     /**
      * @brief setImagenOcultar Modifica el nombre de la imagen en disco para ocultar los personajes en modo
      * grafico
