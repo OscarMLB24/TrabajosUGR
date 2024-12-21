@@ -466,6 +466,11 @@ float QuienEsQuien::profundidad_promedio_hojas(){
      return -1;
 }
 
+void QuienEsQuien::elimina_personaje(string nombre){
+
+	
+}
+
 /**
 * @brief Genera numero enteros positivos aleatorios en el rango [min,max].
 **/
