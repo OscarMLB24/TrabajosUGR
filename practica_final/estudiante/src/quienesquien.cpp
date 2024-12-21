@@ -467,8 +467,23 @@ float QuienEsQuien::profundidad_promedio_hojas(){
 }
 
 void QuienEsQuien::elimina_personaje(string nombre){
+     int pos_personaje = -1;
+     for (int i : personajes.size()) if(personajes.at(i)==nombre) pos_personaje=i;
 
-	
+     if(pos_personaje!=-1) {
+
+          auto it = personajes.begin()+pos_personaje;
+          personajes.erase(it,it);
+          personajes_images.erase(it,it);
+          for (int j : atributos.size())
+               tablero.at(j).erase(it,it); //Esto falla pero no se como quitar cada elemento de la columna
+                                                  //ya que tablero es vector de vectores
+
+          //PREORDER ITERATOR PARA ENCONTRAR EL NODO, lo igualamos a null
+          eliminar_nodos_redundantes();
+
+     }
+
 }
 
 /**
