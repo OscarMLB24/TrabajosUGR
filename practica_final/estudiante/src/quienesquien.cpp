@@ -228,10 +228,10 @@ vector<bool> convertir_a_vector_bool(int n, int digitos) {
 }
 
 /**
- * @brief Calcula la entropía de una respuesta determinada
- * @param num Número de respuestas favorables
- * @param total Número total de respuestas posibles
- * @return La entropía de la respuesta deseada
+ * @brief Calcula la entropia de una respuesta determinada
+ * @param num Numero de respuestas favorables
+ * @param total Nuumero total de respuestas posibles
+ * @return La entropiia de la respuesta deseada
  */
 inline float calcularEntropia(int num, int total) {
 
