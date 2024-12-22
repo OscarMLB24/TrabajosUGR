@@ -17,11 +17,13 @@
 #include <cassert>
 #include <set>
 #include <sstream>
+#include <cmath>
 #include "pregunta.h"
 #include "bintree.h"
 #include "ventana.h"
 #include "consola.h"
 #include "tablerografico.h"
+
 using namespace std;
 
 /**
@@ -44,7 +46,6 @@ private:
       *        descripci?n en el tablero.
       */
     vector<string> personajes_images;
-
 
 	/**
 	  * @brief Almacena los atributos.  Su ?ndice en este vector
@@ -91,18 +92,20 @@ private:
     bool modo_graph;
 
 
+	int mejor_atributo(vector<string> atributos,
+						vector<bool> personajes_restantes,
+						vector<vector<bool>> tablero,
+						int restantes,
+						vector<bool> & siCumplen,
+						vector<bool> & noCumplen,
+						int & numSiCumplen,
+						int & numNoCumplen);
+
 	/**
-	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes
-   	  * @param atributos Almacena los atributos.  Su ?ndice en este vector corresponde con el ?ndice correspondiente de cada vector del tablero.
-	  * @param indice_atributo  
-   	  * @param personajes Almacena el nombre de los personajes. Su ?ndice en este vector corresponde con el ?ndice de su descripci?n en el tablero
-	  * @param personajes_restantes Almacena si los personajes cumplen o no el atributo. Está inicializado con todo a 1, ya que no se ha hecho ninguna pregunta       
-	  * @param tablero Matriz que almacena para cada personaje su valor para cada atributo   
-	  *        
-	  * @return Árbol binario con los personajes en las hojas      
+	  * @brief Esta es una propuesta de cabecera de la funci?n para crear el arbol.
 	  */
-	 bintree<Pregunta> crear_arbol(vector<string> atributos,
-                                    int indice_atributo,
+	bintree<Pregunta> crear_arbol(vector<string> atributos,
+									int indice_atributo,
                                     vector<string> personajes,
                                     vector<bool> personajes_restantes,
                                     vector<vector<bool>> tablero);
@@ -171,23 +174,13 @@ public:
 	void mostrar_estructuras_leidas();
 
 	/**
-	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero, en los que las hojas serán los personajes. Se llama al otro método crear_arbol en el que se usan parámetros
-   	  * 
-	  * @return Árbol binario con los personajes en las hojas      
+	  * @brief Este m?todo construye el ?rbol de preguntas para todos los personajes del tablero.
 	  */
 	bintree<Pregunta> crear_arbol();
- int indice_atributo = 0;
-     vector<bool> personajes_restantes;
-     for(vector<string>::iterator it = personajes.begin();it!=personajes.end();it++){
-          personajes_restantes.push_back(true);
-     }
-
-     return crear_arbol( this->atributos, indice_atributo, this->personajes,
-                         personajes_restantes, this->tablero);
 
 	/**
 	  * @brief Sustituye el ?rbol actual por el ?rbol pasado por par?metro.
-	  * 
+	  *
 	  * @param arbol_nuevo Arbol de preguntas que sustituye al actual.
 	  *
 	  */
@@ -244,13 +237,6 @@ public:
 	  */
 	void tablero_aleatorio(int numero_de_personajes);
 
-
-     /**
-     * @brief Elimina un personaje del arbol y lo reestructura
-     * @param nombre Nombre del personaje a eliminar
-     */
-    void elimina_personaje(string nombre);
-
     /**
      * @brief setImagenOcultar Modifica el nombre de la imagen en disco para ocultar los personajes en modo
      * grafico
@@ -270,8 +256,26 @@ public:
      */
     void ocultar_personajes_graph(const set<string> &personajes_activos);
 
+	/**
+	 * @brief Imprime las preguntas ya formuladas y sus respectivas respuestas
+	 * @param jugada nodo del que se quieren saber las preguntas anteriores
+	 * @pre jugada != null
+	 */
+	void preguntas_formuladas(bintree<Pregunta>::node jugada);
 
+	/**
+	 * @brief Añade un nuevo personaje al a?rbol
+	 * @param nombre nombrer del personaje
+	 * @param caracteristicas atributos del personaje
+	 * @param nombre_imagen_personajes nombre de la imagen del personaje
+	 */
+	void aniade_personaje(string nombre, vector<bool> caracteristicas, string nombre_imagen_personaje="");
+
+	/**
+	* @brief Elimina un personaje del arbol y lo reestructura
+	* @param nombre Nombre del personaje a eliminar
+	*/
+	void elimina_personaje(string nombre);
 };
 
 #endif
-
